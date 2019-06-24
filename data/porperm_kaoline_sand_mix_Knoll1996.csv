@@ -1,0 +1,8 @@
+sample,clay_fraction,porosity,permeability_measured,kaolinite_fraction,illite_fraction,smectite_fraction,specific_surface_granular_fraction
+1,0,0.399,4.4E-10,1,0,0,4.7
+2,0.062,0.359,7.5E-13,1,0,0,4.7
+3,0.129,0.308,1.6E-14,1,0,0,4.7
+4,0.209,0.238,5.4E-16,1,0,0,4.7
+5,0.372,0.359,7.1E-16,1,0,0,4.7
+6,0.613,0.48,6.4E-16,1,0,0,4.7
+7,1,0.599,1.5E-15,1,0,0,4.7
