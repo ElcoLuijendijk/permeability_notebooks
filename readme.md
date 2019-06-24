@@ -4,6 +4,8 @@ Jupyter notebooks to calculate the permeability of mixed siliciclastic sediments
 
 You can use the notebooks to estimate permeability if you have data or estimates on clay content, clay types, porosity, specific surface or grain size distribution of sediment samples. If you happen to have permeability data as well, you could help refine porosity-permeability models for sediments by comparing measured and calculated permeabilities. 
 
+![](figs/porperm_compilation_clays_measured_vs_calculated_k_small.png)
+
 
 ## Calculating permeability
 
