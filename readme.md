@@ -1,8 +1,8 @@
 # Permeability notebooks
 
-Jupyter notebooks to calculate the permeability of mixed siliciclastic sediments, following equations published by [Luijendijk and Gleeson (2015)](https://onlinelibrary.wiley.com/doi/full/10.1111/gfl.12115): "How well can we predict permeability in sedimentary basins? Deriving and evaluating porosity-permeability equations for noncemented sand and clay mixtures".
+Jupyter notebooks to calculate the permeability of non-cemented siliciclastic sediments, following equations published by [Luijendijk and Gleeson (2015)](https://onlinelibrary.wiley.com/doi/full/10.1111/gfl.12115): "How well can we predict permeability in sedimentary basins? Deriving and evaluating porosity-permeability equations for noncemented sand and clay mixtures".
 
-You can use the notebooks to estimate permeability if you have data or estimates on clay content, clay types, porosity, specific surface or grain size distribution of sediment samples. If you happen to have permeability data as well, you could help refine porosity-permeability models for sediments by comparing measured and calculated permeabilities. 
+You can use the notebooks to estimate permeability if you have data or estimates on the clay content, clay types, porosity, specific surface or grain size distribution for sediment samples. If you happen to have permeability data as well, you could help refine porosity-permeability models for sediments by comparing measured and calculated permeabilities. 
 
 ![](figs/porperm_compilation_clays_measured_vs_calculated_k_small.png)
 
@@ -45,10 +45,10 @@ The Jupyter notebook generate figures of the grain size distribution, specific s
 The main notebook [calculate_permeability_sediment_mixtures.ipynb](calculate_permeability_sediment_mixtures.ipynb) reads input from a .csv file that needs the following columns:
 
 * ``porosity``: Porosity (dimensionless).
-* ``permeability_measured``: Measured permeability (m^2)
+* ``permeability_measured``: Measured permeability (m^2^)
 * ``clay_fraction`` The weight fraction of clay.
 * ``kaolinite_fraction``, ``illite_fraction``, ``smectite_fraction``: The weight fractions of the three main types of clays used in Luijendijk & Gleeson (2015). Note that these should add up to 1.0. Also note that you could add additional clay types (chlorite for example, or mixed-layer clays) by updating the line ``clays = ['kaolinite', 'illite', 'smectite']`` and the values for ``k0_clays`` and ``m_clays`` in the notebook.
-* ``specific_surface_granular_fraction``: The specific surface of the non-clay material (kg m-3). Note that you can calculate using grain size distributions using either of the two specific surface notebooks.
+* ``specific_surface_granular_fraction``: The specific surface of the non-clay material (m^2^ kg^-1^). Note that you can calculate using grain size distributions using either of the two specific surface notebooks.
 
 
 ## Reference
